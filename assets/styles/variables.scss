@@ -1,0 +1,36 @@
+$desktop-small: 1180px;
+$tablet: 766px;
+$mobile: 479px;
+
+$max-width: 75rem;
+
+:root {
+	// fonts:
+	--base-font: 'Rubik', sans-serif;
+	--title-font: 'Russo One', sans-serif;
+
+	--base-bright-font-color: #249AD4;
+	--accent-bright-font-color: #004F8D;
+	--base-dark-font-color: #FFFFFF;
+	--accent-dark-font-color: #A4C0F7;
+
+	// colors:
+	--background-color: #ffffff;
+	--footer-background-color: #f7f7f7;
+	--base-color: #278AEC;
+	--secondary-color: #73B2D1;
+	--thirdary-color: #393939;
+	--fourth-color: #a3c6d6;
+
+	// borders:
+	--border-radius: 10px;
+
+	// header:
+	--header-color: rgba(236, 236, 236, 0.75);
+	--header-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	--header-backdrop-filter: blur(9.5px);
+	--header-border: 1px solid rgba(255, 255, 255, 0.18);
+
+	// card:
+	--card-box-shadow: 0 5px 10px 0 rgba(31, 38, 135, 0.37);
+}
